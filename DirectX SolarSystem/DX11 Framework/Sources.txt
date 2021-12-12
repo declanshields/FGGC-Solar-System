@@ -1,0 +1,48 @@
+Textures from https://www.solarsystemscope.com/textures/ :
+
+Sun
+Mercury
+Venus
+Venus Atmosphere
+Earth
+Moon
+Mars
+Jupiter
+Saturn
+Uranus
+Neptune
+
+
+
+Phobos texture : https://www.deviantart.com/askaniy/art/Phobos-Texture-Map-784146561 
+by DeviantArt user Askaniy using Creative Commons Attribution-Share Alike 3.0 License
+
+Deimos texture : https://www.deviantart.com/askaniy/art/Deimos-Texture-Map-784881224
+by DeviantArt user Askaniy using Creative Commons Attribution-Share Alike 3.0 License
+
+Europa texture : https://www.deviantart.com/askaniy/art/Europa-Texture-Map-20K-769790967
+by DeviantArt user Askaniy using Creative Commons Attribution-Share Alike 3.0 License
+
+Io texture : https://www.deviantart.com/fargetanik/art/Io-Truecolor-Texture-Map-8k-708688293
+by DeviantArt user FarGetaNik using Creative Commons Attribution-Noncommercial-Share Alike 3.0 License
+
+Ganymede texture : https://www.deviantart.com/askaniy/art/Ganymede-Texture-Map-11K-808732114
+by DeviantArt user Askaniy using Creative Commons Attribution-Share Alike 3.0 License
+
+Callisto texture : https://www.deviantart.com/askaniy/art/Callisto-Texture-Map-8K-808772741
+by DeviantArt user Askaniy using Creative Commons Attribution-Share Alike 3.0 License
+
+Enceladus texture : https://www.deviantart.com/kale4good/art/Enceladus-Texture-Map-HD-Blurred-Out-Joints-789978145
+by DeviantArt user Kale4Good using Creative Commons Attribution-Noncommercial-Share Alike 3.0 License
+
+Titan texture : https://www.deviantart.com/magentameteorite/art/FarGetaNik-s-Titan-Texture-Map-colored-improved-843078251
+by DeviantArt user FarGetaNik and MagentaMeteorite, not usable for commercial purposes
+
+Titania texture : https://www.deviantart.com/magentameteorite/art/Titania-Texture-Map-filled-missing-Data-793854798
+by DeviantArt user MagentaMeteorite © 2019 - 2021 MagentaMeteorite
+
+Oberon Texture : https://planet-texture-maps.fandom.com/wiki/Oberon
+
+Asteroid Texture : https://commons.wikimedia.org/wiki/File:Generic_Celestia_asteroid_texture.jpg
+
+cube map image : https://upload.wikimedia.org/wikipedia/commons/6/60/ESO_-_Milky_Way.jpg

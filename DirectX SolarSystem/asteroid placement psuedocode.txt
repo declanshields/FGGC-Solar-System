@@ -1,0 +1,40 @@
+// Generate a random x and z position within the bounds of the large circle
+// Then check if the position is inside of the small circle
+// If it is, generate new pos until pos is inside large circle and outside small circle
+
+do
+    generate random x and z value
+    distance = distance from point to origin
+    if(distance > small circle radius)
+        pos = x and z values
+        break out of loop
+while(distance < small circle radius)
+
+
+
+
+
+// Inner circle radius = 12.4
+// Outer circle radius = 12.6
+
+//Distance = sqrt(x^2 + z^2) 
+
+	    do
+	    {
+            //get a random number between -12.6 and 12.6 for both x and z
+            float x = ((-1 + 2 * ((float)rand()) / RAND_MAX) * 12.6f);
+            float z = ((-1 + 2 * ((float)rand()) / RAND_MAX) * 12.6f);
+
+            //calculate the distance from the origin
+            float distance = sqrt((x * x) + (z * z));
+
+            //check to see if within outer circle (ie distance less than outer circle radius), then check to see if the point is outside the inner circle (ie distance is more than inner circle radius)
+            if(distance <= 12.6f && distance >= 12.4)
+            {
+	            
+            }
+	    }
+	    while (true);
+
+
+        AsteroidArray[i] = new Asteroid(((-1+2*((float)rand())/RAND_MAX) / 10) /*+ xAxis*/, (-1 + 2 * ((float)rand()) / RAND_MAX) / 10, ((-1 + 2 * ((float)rand()) / RAND_MAX) / 10) /*+ zAxis*/, (((float)rand())/RAND_MAX) / 100, (((float)rand()) / RAND_MAX) / 100, (((float)rand()) / RAND_MAX) / 100, (((float)rand()) / RAND_MAX) / 2, 1 / (((((float)rand()) / RAND_MAX) * (6 - 3) + 3) * 365));
