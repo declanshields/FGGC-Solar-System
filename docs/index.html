@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Solar System Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/face.jpg" alt="" /></span>
+							<h1 id="title">Declan Shields</h1>
+							<p>Computer Games Programmer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="https://declanshields.github.io/" id="return-link"><span class="icon solid fa-arrow-left">Return to main page</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2>FGGC Solar System</h2>
+							</header>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Project Explanation</h2>
+							</header>
+
+							<p>This page is dedicated to the Solar System project created for my course work in my second year module, Further Games and Graphics Concepts</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<video width="640" height="480" controls="controls">
+											<source src="images/SolarSystem.mp4" type="video/mp4">
+										</video>
+										<header>
+											<h3>Demonstration of the project.</h3>
+										</header>
+									</article>
+									<p>If the video does not work, it can be found <a href="https://youtu.be/4wzgSEGyMLY">here.</p>
+								</div>
+							</div>
+              <br>
+							<p>This project was created during semester 1 of Further Games and Graphics Concepts(FGGC) at Staffordshire University.
+								<br>
+							It is a 3D model of the solar system and some of the planets moons, as well as the asteroid belt, which was created using a supplied DirectX 11 framework.</p>
+							<br>
+							<p>This model includes a camera focused at each planet, as well as the sun, alongside a 9th camera which is a free movement camera. This 9th camera can move in the x, y, and z axis, however it cannot rotate.
+								<br>
+								One thing I am proud of in this project is the way I recreated Saturn's rings. I tried loading an OBJ file for the planet, however none would work due to the coordinate scale used. I then attempted to create the rings in Blender,
+								however this didn't work due to my lack of experience with the software. In the end, I took the same code I used to create the asteroid belt, and replicated it to create 3 of Saturn's rings.
+								<br>
+								This involved generating a random x and z coordinate within a circle with a specific radius, I then checked to see how far away from the center of the circle it was, if it was an acceptable distance away, the coordinates were used, if not they were generated again.
+								Then, each asteroid was given a random scaling value in each direction to make them all different shapes.</p>
+
+								<p>Additionally, this project also includes several different light sources, including 1 point light and 6 spot lights. The ambient light is placed inside of the sun, which is rendered as being transparent to allow the light to pass through it.
+									The 6 spot lights are used to light up the sun, since the ambient light is inside the sun, it is not lit up, hence needing a separate light source.
+                <br>
+								There are also 2 different rasterizer states, solid and wireframe. Through using the wireframe mode, you can better see that Venus has two models. This is because there is a second object to represent Venus' atmosphere that is slightly bigger than the planet and transparent.
+								</p>
+
+              <p>The code for this project will be available in January 2022 after the assignment has been marked.</p>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Declan Shields. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
