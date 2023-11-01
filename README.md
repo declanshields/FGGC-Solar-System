@@ -25,4 +25,4 @@ Space - Up (+y)
 
 Use the left arrow key to swap to Wireframe, and the right arrow key to swap to solid fill
 
-Link to video demonstration: https://www.youtube.com/embed/4wzgSEGyMLY?si=FdzvBqvG2rcvfgUD
+Link to video demonstration: https://www.youtube.com/watch?v=4wzgSEGyMLY
