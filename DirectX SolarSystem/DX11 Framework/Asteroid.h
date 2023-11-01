@@ -37,9 +37,6 @@ public:
 	//Constructor
 	Asteroid(float x, float y, float z, float xScale, float yScale, float zScale, float rotation, float orbit);
 
-	//Destructor
-	~Asteroid();
-
 	//Update function to update the asteroid matrix
 	void Update(float time, float speed);
 

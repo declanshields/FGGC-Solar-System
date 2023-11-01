@@ -218,7 +218,7 @@ HRESULT Application::InitShadersAndInputLayout()
 
     CreateDDSTextureFromFile(_pd3dDevice, L"neptune texture.dds", nullptr, &_pNeptuneTexture);
 
-    CreateDDSTextureFromFile(_pd3dDevice, L"cubemap\px.dds", nullptr, &_pPlaneTexture);
+    CreateDDSTextureFromFile(_pd3dDevice, L"cubemap/px.dds", nullptr, &_pPlaneTexture);
 
     // Assignment B2
     //create planets
@@ -930,22 +930,20 @@ void Application::Cleanup()
 
     for(int i = 0; i < 10000; i++)
     {
-        AsteroidArray[i] = nullptr;
+        delete AsteroidArray[i];
     }
     for(int i = 0; i < 750; i++)
     {
-        SaturnInnerRingArray[i] = nullptr;
+        delete SaturnInnerRingArray[i];
     }
     for(int i = 0; i < 1000; i++)
     {
-        SaturnMidRingArray[i] = nullptr;
+        delete SaturnMidRingArray[i];
     }
     for(int i = 0; i < 1500; i++)
     {
-        SaturnOuterRingArray[i] = nullptr;
+        delete SaturnOuterRingArray[i];
     }
-
-    delete[] AsteroidArray, SaturnInnerRingArray, SaturnMidRingArray, SaturnOuterRingArray;
 }
 
 void Application::Update()
